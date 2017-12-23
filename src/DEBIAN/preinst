@@ -1,0 +1,9 @@
+#!/bin/sh -xe
+
+if [ ! -f "/var/log/package-name.log" ]; then
+    /bin/touch /var/log/package-name.log
+fi
+
+if [ ! -f "/var/log/package-name.err" ]; then    
+    /bin/touch /var/log/package-name.err
+fi
