@@ -1,0 +1,6 @@
+#!/bin/sh -xe
+if [ -f "/etc/init.d/package-name" ];
+then
+    update-rc.d package-name defaults
+    /etc/init.d/package-name start
+fi
