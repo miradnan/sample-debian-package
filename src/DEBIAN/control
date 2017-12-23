@@ -1,0 +1,6 @@
+Package: package-name
+Architecture: amd64
+Maintainer: Your company name <miradnanali@gmail.com>
+Description: My Package Description
+Priority: optional
+Version: 1.0
