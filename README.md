@@ -10,7 +10,7 @@ sudo apt install -y software-properties-common wget ruby-full git devscripts bui
 sudo dpkg-deb --build package-name
 ```
 
-# Test your package
+### Test your package
 ```bash
 sudo dpkg -i package-name.deb
 # see if its running
