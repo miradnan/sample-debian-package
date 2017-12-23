@@ -3,7 +3,7 @@
 These are the default files that you'll need to build your deb package on.
 Compile your source code and place it under `/usr/sbin/package-name` file
 
-### Building Debian package
+### Building debian package
 ```bash
 sudo apt-get update
 sudo apt install -y software-properties-common wget ruby-full git devscripts build-essential lintian
